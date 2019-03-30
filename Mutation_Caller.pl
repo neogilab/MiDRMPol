@@ -1,3 +1,5 @@
+#Author : Anoop Ambikan (https://github.com/anoop1988)
+
 @Input=qx(ls DRM_Tables/*.txt);
 system("rm MiDRMPol_Result.txt");
 $count=@Input;
